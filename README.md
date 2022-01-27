@@ -15,7 +15,7 @@ Pytube is a lightweight, Pythonic, dependency-free, library (and command-line ut
 # Requirements
 
 Python3 libraries
-````
+````python
 pip install pytube
 pip install pyqt5-tools
 pip install PyQt5Designer
