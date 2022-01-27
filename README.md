@@ -20,4 +20,5 @@ pip install pytube
 pip install pyqt5-tools
 pip install PyQt5Designer
 pip install Pillow
+pip install urllib3
 ````
