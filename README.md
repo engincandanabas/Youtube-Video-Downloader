@@ -12,7 +12,7 @@ The pytube library was used for the program.
 Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 
 
-#Requirements
+# Requirements
 
 Python3 libraries
 ````
@@ -21,4 +21,3 @@ pip install pyqt5-tools
 pip install PyQt5Designer
 pip install Pillow
 ````
-dsfbklmdfb
