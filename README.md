@@ -11,7 +11,6 @@ The pytube library was used for the program.
 **What is pytube?**
 Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 
-
 # Requirements
 
 Python3 libraries
@@ -22,3 +21,24 @@ pip install PyQt5Designer
 pip install Pillow
 pip install urllib3
 ````
+# Possible errors you may encounter
+
+## Pytube: urllib.error.HTTPError: HTTP Error 410: Gone
+Execute the commands below.
+
+```python
+python -m pip install --upgrade pytube
+python -m pip install git+https://github.com/Zeecka/pytube@fix_1060
+````
+
+## Pytube library - Receiving "pytube.exceptions.RegexMatchError: regex pattern" error when attempting to access video data
+
+Replace the var.regex line in the cipher.py file with the code
+
+```python
+var_regex = re.compile(r"^$*\w+\W")
+````
+
+If you still get an error after trying the solutions, replace the contents of the file below with cipher.py
+[cipher.txt](https://github.com/engincandanabas/Youtube-Video-Downloader/files/7952552/cipher.txt)
+
