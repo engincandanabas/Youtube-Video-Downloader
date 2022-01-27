@@ -6,10 +6,7 @@ YouTube Video Downloader with Python
 <img src="https://user-images.githubusercontent.com/60680749/151404957-e789f80f-f41e-4e04-9e4c-8bae768bfcee.png" width="250" height="250">
 </p>
 A program made with Python to download YouTube videos in any resolution or audio only format.
-The pytube library was used for the program.
-__
-__
-__
+The pytube library was used for the program.\
 **What is pytube?**\
 Pytube is a lightweight, Pythonic, dependency-free, library (and command-line utility) for downloading YouTube Videos.
 
